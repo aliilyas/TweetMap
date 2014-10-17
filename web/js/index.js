@@ -141,7 +141,7 @@ window.onload = loadScript;
  * @type WebSocket
  */
 
-var ws = new WebSocket("ws://localhost:8084/TwitterSocket/TwitterStream");
+var ws = new WebSocket("ws://107.170.175.190//TwitterSocket/TwitterStream");
 
 ws.onopen = function() {
 };
