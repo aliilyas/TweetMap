@@ -168,7 +168,7 @@ ws.onmessage = function(message) {
     
     setInterval(function(){
         marker.setMap(null);
-    },"6000");
+    },"20000");
     
     google.maps.event.addListener(marker, 'click', function() {
         infowindow.open(map, marker);
